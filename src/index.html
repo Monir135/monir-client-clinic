@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/MedicalBusiness">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ================= BASIC SEO ================= -->
+  <title>GreenCare Clinic | Premium Healthcare & Online Appointments</title>
+
+  <meta name="description"
+    content="GreenCare Clinic is a concept demo healthcare website offering online appointment booking, telemedicine, and digital medical services UI." />
+
+  <meta name="keywords"
+    content="clinic website demo, healthcare website design, doctor appointment booking UI, telemedicine website, medical website portfolio" />
+
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="GreenCare Clinic" />
+  <meta property="og:image:alt" content="GreenCare Clinic — Premium Healthcare & Online Appointments" />
+
+
+  <!-- ================= CANONICAL ================= -->
+  <link rel="canonical" href="https://monir-client-clinic.vercel.app/" />
+
+  <!-- ================= OPEN GRAPH (Facebook, WhatsApp, LinkedIn) ================= -->
+  <meta property="og:title" content="GreenCare Clinic — Premium Healthcare Website" />
+  <meta property="og:description"
+    content="A concept demo clinic website featuring online appointments, telemedicine UI, and digital healthcare experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://monir-client-clinic.vercel.app/" />
+  <meta property="og:site_name" content="GreenCare Clinic" />
+
+  <meta property="og:image" content="https://monir-client-clinic.vercel.app/images/preview.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
+
+
+  <!-- ================= MEDICAL TRUST ================= -->
+  <meta name="medical-disclaimer"
+    content="This is a concept demo website created for portfolio purposes only. No real medical services are provided." />
+
+  <!-- ================= THEME / BRANDING ================= -->
+  <meta name="theme-color" content="#1e7f74" />
+
+  <!-- ================= FAVICON ================= -->
+  <link rel="icon" type="image/png" href="images/logo.png" />
+
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="clinic.css" />
+</head>
+
+<body>
+
+
+<!-- TOP BAR -->
+
+<div class="top-bar">
+  <div class="container">
+    
+    <!-- Clinic Name (hidden, already in logo visually) -->
+    <span itemprop="name" style="display:none;">GreenCare Clinic</span>
+
+    <!-- Phone -->
+    <span>
+      <i class="fa-solid fa-phone"></i> 
+      <span itemprop="telephone">+971 50 000 0000</span>
+    </span>
+
+    <!-- Email -->
+    <span>
+      <i class="fa-solid fa-envelope"></i> 
+      <span itemprop="email">support@greencareclinic.com</span>
+    </span>
+
+    <!-- Address -->
+    <div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+      <span itemprop="streetAddress">Dubai Healthcare City</span>,
+      <span itemprop="addressLocality">Dubai</span>,
+      <span itemprop="addressRegion">UAE</span>
+    </div>
+
+    <!-- Emergency Info -->
+    <span class="emergency">24/7 Emergency Support</span>
+    
+  </div>
+</div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-flex">
+      <div class="logo">GreenCare<span>Clinic</span></div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#doctors">Doctors</a></li>
+          <li><a href="#appointments">Appointments</a></li>
+          <li><a href="#telemedicine">Telemedicine</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#appointments" class="btn-primary">Book Appointment</a>
+    </div>
+
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Premium Healthcare, Trusted Globally</h1>
+        <p>Consult certified doctors, book appointments online and receive digital medical care securely.</p>
+        <div class="hero-actions">
+          <a href="#appointments" class="btn-primary">Book Now</a>
+          <a href="#services" class="btn-outline">Our Services</a>
+        </div>
+      </div>
+      <img src="images/doctor1.jpg" alt="Doctor Consultation" />
+    </div>
+  </section>
+
+  <!-- TRUST -->
+  <section class="trust">
+    <div class="container trust-grid">
+      <div><i class="fa-solid fa-user-doctor"></i>
+        <p>Certified Doctors</p>
+      </div>
+      <div><i class="fa-solid fa-hospital"></i>
+        <p>Modern Clinic</p>
+      </div>
+      <div><i class="fa-solid fa-shield-heart"></i>
+        <p>Patient Safety</p>
+      </div>
+      <div><i class="fa-solid fa-file-invoice"></i>
+        <p>Digital Records</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="section-title">Our Medical Services</h2>
+      <div class="services-grid">
+        <article><i class="fa-solid fa-stethoscope"></i>
+          <h3>General Medicine</h3>
+          <p>Primary diagnosis and preventive care.</p>
+        </article>
+        <article><i class="fa-solid fa-heart-pulse"></i>
+          <h3>Cardiology</h3>
+          <p>Advanced heart care solutions.</p>
+        </article>
+        <article><i class="fa-solid fa-brain"></i>
+          <h3>Neurology</h3>
+          <p>Specialist neurological treatments.</p>
+        </article>
+        <article><i class="fa-solid fa-laptop-medical"></i>
+          <h3>Telemedicine</h3>
+          <p>Online video consultations.</p>
+        </article>
+        <article><i class="fa-solid fa-vials"></i>
+          <h3>Diagnostics</h3>
+          <p>Digital lab reports.</p>
+        </article>
+        <article><i class="fa-solid fa-baby"></i>
+          <h3>Pediatrics</h3>
+          <p>Complete child healthcare.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTORS -->
+  <section id="doctors" class="doctors">
+    <div class="container">
+      <h2 class="section-title">Meet Our Doctors</h2>
+      <div class="doctors-grid">
+        <div class="doctor-card"><img src="images/general.jpg" alt="Doctor" />
+          <h3>Dr. Ayesha Rahman</h3><span>General Physician</span>
+        </div>
+        <div class="doctor-card"><img src="images/cardiologist.jpg" alt="Doctor" />
+          <h3>Dr. Mohammed Ali</h3><span>Cardiologist</span>
+        </div>
+        <div class="doctor-card"><img src="images/neurologist.jpg" alt="Doctor" />
+          <h3>Dr. Samuel Joseph</h3><span>Neurologist</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPOINTMENT -->
+  <section id="appointments" class="appointments">
+    <div class="container">
+      <h2 class="section-title">Book an Appointment</h2>
+      <form id="appointmentForm" class="appointment-form">
+
+        <input type="text" name="name" placeholder="Full Name" required />
+
+        <input type="email" name="email" placeholder="Email Address" required />
+
+        <input type="tel" name="phone" placeholder="Phone / WhatsApp" required />
+
+        <select name="department" required>
+          <option value="" disabled selected>Select Department</option>
+          <option value="General Medicine">General Medicine</option>
+          <option value="Cardiology">Cardiology</option>
+          <option value="Neurology">Neurology</option>
+          <option value="Telemedicine">Telemedicine</option>
+        </select>
+
+        <select name="doctor">
+          <option value="">Select Doctor</option>
+          <option value="Dr. Ayesha Rahman">Dr. Ayesha Rahman</option>
+          <option value="Dr. Mohammed Ali">Dr. Mohammed Ali</option>
+          <option value="Dr. Samuel Joseph">Dr. Samuel Joseph</option>
+
+        </select>
+
+
+        <input type="date" name="date" required />
+
+        <input type="time" name="time" required />
+
+
+        <div class="payment-choice">
+          <label><strong>Payment:</strong> Pay at Clinic</label>
+        </div>
+
+
+
+
+        <textarea name="message" placeholder="Describe your medical concern"></textarea>
+
+        <label class="consent">
+          <input type="checkbox" required />
+          I agree to telemedicine & privacy terms
+        </label>
+
+        <button type="submit" class="btn-primary">
+          Confirm Booking
+        </button>
+
+      </form>
+      <div id="confirmationBox" class="confirmation-box" style="display:none;"></div>
+
+
+    </div>
+  </section>
+
+  <!-- TELEMEDICINE -->
+  <section id="telemedicine" class="telemedicine">
+    <div class="container tele-grid">
+      <div>
+        <h2>Online Telemedicine Consultation</h2>
+        <p>
+          Consult certified doctors online through secure video calls.
+          Book your telemedicine appointment and receive your consultation
+          link via WhatsApp or email.
+        </p>
+
+        <ul>
+          <li>Secure video consultation</li>
+          <li>Digital prescriptions</li>
+          <li>No hospital visit required</li>
+          <li>Global patient support</li>
+        </ul>
+
+        <button type="button" class="btn-primary" onclick="selectTelemedicine()">
+          Book Online Consultation
+        </button>
+
+      </div>
+
+      <img src="images/online-consult.jpg" alt="Online Telemedicine Consultation" />
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container contact-grid">
+      <div>
+        <h2>Contact Us</h2>
+        <p><i class="fa-solid fa-location-dot"></i> UAE • Malaysia • Global</p>
+        <p><i class="fa-solid fa-phone"></i> +971 50 000 0000</p>
+        <p><i class="fa-solid fa-envelope"></i> support@greencareclinic.com</p>
+      </div>
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+      <div id="contactSuccess" style="display:none; margin-top:15px; color:green; font-weight:600;">
+        ✅ Message sent successfully. We will contact you soon.
+        <br><br>
+        <button type="button" class="btn-outline" onclick="resetContactForm()">
+          Go Back
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================= CLINIC LOCATION ================= -->
+  <section class="clinic-location">
+    <div class="container">
+
+      <h2 class="section-title">Our Clinic Location</h2>
+
+      <!-- Map -->
+      <div class="map-card">
+        <iframe src="https://www.google.com/maps?q=Dubai+Healthcare+City&output=embed" loading="lazy" allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <!-- Address + Action -->
+      <div class="location-footer">
+        <p class="clinic-address">
+          <i class="fa-solid fa-location-dot"></i>
+          GreenCare Clinic — Dubai Healthcare City
+        </p>
+
+        <a href="https://www.google.com/maps/dir/?api=1&destination=Dubai+Healthcare+City" target="_blank"
+          class="btn-primary">
+          <i class="fa-solid fa-location-arrow"></i>
+          Get Directions
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918822030323?text=Hello%20GreenCare%20Clinic,%20I%20would%20like%20to%20book%20an%20appointment."
+    class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>GreenCare Clinic</h3>
+        <p>Premium digital healthcare solutions.</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Medical Disclaimer</a></li>
+        </ul>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+
+    <p class="footer-bottom">
+      © <span id="year"></span> GreenCare Clinic — Demo Project by Moniruzzaman
+    </p>
+
+
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="clinic.js"></script>
+</body>
+
+</html>
