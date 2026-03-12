@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ------------------ DOCTOR SLOTS ------------------
   const doctorSlots = {
-    "Dr. Ayesha Rahman": ["09:00", "10:00", "11:00", "14:00", "15:00"],
+    "Dr. Ayesha": ["09:00", "10:00", "11:00", "14:00", "15:00"],
     "Dr. Mohammed Ali": ["10:00", "11:30", "13:00", "15:00", "16:00"],
     "Dr. Samuel Joseph": ["09:30", "11:00", "12:30", "14:30", "16:00"]
   };
