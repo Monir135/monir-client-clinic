@@ -21,12 +21,23 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   color: var(--text);
   background: #f9fafb;
   line-height: 1.6;
+
 }
+
+
+
+
 
 img {
   max-width: 100%;
